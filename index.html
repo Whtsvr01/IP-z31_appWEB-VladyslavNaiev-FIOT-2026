@@ -3,89 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lab1</title>
-    <h1>Welcome to <span style="color: #f7baba">NiceBakery</span> Webpage</h1>
-    <div style="background-color: #ecf7ba">
-    <h3>Why us?</h3>
-    <p>beacuse we are:</p>
-    <ol>
-        <li>professional</li>
-        <li>quick</li>
-        <li>reliable</li>
-    </ol>
-    </div>
+    <title>labs</title>
+    <style>
+        body{
+            background: linear-gradient(45deg, aqua, teal, aquamarine, cyan, darkcyan);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .navbar{
+            clear: both;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul{
+            list-style-type: none;
+        }
+
+        .navbar li{
+            font-size: 10px;
+            border: 1px solid;
+            border-radius: 10px;
+            margin: 10px;
+            background-color: white;
+            text-align: center;
+            width: 100px;
+        }
+
+        .navbar li:hover{
+            background-color: cadetblue;
+        }
+
+        .navbar a{
+            display: block;
+            padding: 10px;
+        }
+
+        .navbar a:visited{
+            color: blue;
+        }
+
+    </style>
 </head>
 <body>
-    <div style="background-color: #baf7ca">
-    <h2>About us</h2>
-    <p>We bake cakes for our customers on request</p>
-    <p>among our line of cakes we have:</p>
-    <ul>
-        <li>wedding cakes
-            <br>
-            <img src="/imgs/wedding-cake.jpg", width="300">
-        </li>
-        <hr>
-        <li>birthday cakes
-            <br>
-            <img src="/imgs/birthday-cake.jpg", width="300">
-        </li>
-        <hr>
-        <li>graduation cake
-            <br>
-            <img src="/imgs/graduation-cake.jpg", width="300">
-        </li>
-        <hr>
-        <li>parties cakes
-            <br>
-            <img src="/imgs/party cake.jpg", width="300">
-        </li>
-        <hr>
-        <li>and many more
-            <br>
-            <img src="/imgs/many-cakes.jpg", width="300">
-        </li>
-        <hr>
-    </ul>
-    </div>
-
-    <div style="background-color: #f7c4ba">
-    <h2> Our schedule: </h2>
-    <table bgcolor="black">
-        <tr bgcolor="white" align="center">
-            <th width="100">Monday-Thursday</th>
-            <td width="100">10:00-20:00</td>
-        </tr>
-        <tr bgcolor="white" align="center">
-            <th width="100">Friday</th>
-            <td width="100">10:00-18:00</td>
-        </tr>
-        <tr bgcolor="white" align="center">
-            <th width="100">Saturday-Sunday</th>
-            <td width="100">12:00-16:00</td>
-        </tr>
-    </table>
-    </div>
-
-    <div style="background-color: #babbf7">
-    <h4>Would you like us to call you back?</h4>
-    <h5>Leave your number in the form below</h5>
-
-    <form>
-        <label for="phone">Phone number:</label>
-        <input id="phone" type="tel">
-        <div>
-            <input id="phone" type="reset">
-            <input id="phone" type="submit">
-        </div>
-    </form>
-    </div>
-
-    <div style="background-color: #f7baf3">
-    <h6>Click the button below to learn more about website</h6>
-    <a href="info.html">
-        <button>Learn more</button>
-    </a>
-    </div>
+    <header style="text-align: center;"><h4>This page allows you to choose version of the website based on the lab number</h4></header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/lab1/mainPage.html" target="_new">Лабораторна <br> робота №1</a></li>
+            <li><a href="/lab2/mainPage.html" target="_new">Лабораторна <br> робота №2</a></li>
+            <li><a href="/lab3/mainPage.html" target="_new">Лабораторна <br> робота №3</a></li>
+            <li><a href="/lab4/mainPage.html" target="_new">Лабораторна <br> робота №4</a></li>
+            <li><a href="/lab5/mainPage.html" target="_new">Лабораторна <br> робота №5</a></li>
+            <li><a href="/lab6/mainPage.html" target="_new">Лабораторна <br> робота №6</a></li>
+            <li><a href="/lab7/mainPage.html" target="_new">Лабораторна <br> робота №7</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
