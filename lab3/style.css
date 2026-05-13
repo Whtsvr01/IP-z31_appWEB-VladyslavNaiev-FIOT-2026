@@ -116,6 +116,24 @@ input{
         animation: showMenu;
         animation-fill-mode: forwards;
     }
+    #orderForm{
+        display: flex;
+        flex-direction: column;
+    }
+    .offersTable{
+        display: flex;
+        row-gap: 2em;
+        flex-direction: column;
+    }
+    .offersTable li{
+        display: flex;
+        row-gap: 2em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .offersTable li:active{
+        background-color: #cb8b64;
+    }
 }
 
 #pricingContainer{
