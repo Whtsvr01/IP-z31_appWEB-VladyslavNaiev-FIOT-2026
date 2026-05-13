@@ -6,121 +6,66 @@
     <title>lab3</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="mainPage.html">Main Page</a></li>
+            <li><a href="ourCakesPage.html">Our cakes</a></li>
+            <li><a href="orderPage.html">Make an Order</a></li>
+            <li><a href="contactsPage.html">Contacts</a></li>
+        </ul>
+    </nav>
+    
     <header>
-        <h1>Welcome to <span style="color: #f7baba">NiceBakery</span> Webpage</h1>
+        <h1 id="pageName">Welcome to <span id="NiceBakery">NiceBakery</span> Webpage</h1>
 
         <div id="headerContainer">
-            <div>
-                <h3>Why us?</h3>
-                <p>beacuse we are:</p>
-                <ol>
-                    <li>professional</li>
-                    <li>quick</li>
-                    <li>reliable</li>
-                </ol>
-            </div>
-
-            <div>
-                <h3>What do we do?</h3>
-                <p>we bake cakes for different occasions:</p>
+            <div class="mainPageFAQ">
+                <h3>What does we offer?</h3>
+                <p>we bake cakes for:</p>
                 <ol>
                     <li>weddings</li>
                     <li>birthdays</li>
-                    <li>graduation</li>
+                    <li>graduations</li>
                     <li>parties</li>
-                    <li>many more</li>
+                    <li>your special occasions</li>
                 </ol>
             </div>
-
-            <div>
-                <h3>What does this site do?</h3>
-                <p>this site can help you with:</p>
+            <div class="mainPageFAQ">
+                <h3>What does this website offer?</h3>
+                <p>this website helps you with:</p>
                 <ol>
-                    <li>checking out our cakes</li>
-                    <li>making order</li>
-                    <li>learn more about us</li>
-                    <li>reaching us out</li>
+                    <li>choosing a cake</li>
+                    <li>contacting us</li>
+                    <li>learning more about us</li>
+                    <li>making an order</li>
                 </ol>
             </div>
         </div>
     </header>
 
-    <nav></nav>
+    <hr>
 
-    <main>
-        <div class="even" id="cakeList" style="background-color: #baf7ca">
-            <h2>About us</h2>
-            <p>We bake cakes for our customers on request</p>
-            <p>among our line of cakes we have:</p>
-            <ul>
-                <li>wedding cakes
-                    <br>
-                    <img src="/imgs/wedding-cake.jpg", width="300">
+    <footer>
+        <h3>FAQ</h3>
+            <ol>
+                <li>
+                    How to navigate through the website?
+                    <ul>
+                        <li>use semi-transparent menu in the right upper corner of the page;</li>
+                        <li>if you use mobile version of the website, use the menu at the very top of the page.</li>
+                    </ul>
                 </li>
-                <hr>
-                <li>birthday cakes
-                    <br>
-                    <img src="/imgs/birthday-cake.jpg", width="300">
+                <li>
+                    What does the menus do?
+                    <ul>
+                        <li>Main Page helps you to learn a little bit about us;</li>
+                        <li>Our Cakes page allows you to learn about our cakes: designs, fillings, pricings;</li>
+                        <li>Make an Order page allows you to leave an order;</li>
+                        <li>Conctacts page helps you to reach us: by the phone or in the real life.</li>
+                    </ul>
                 </li>
-                <hr>
-                <li>graduation cake
-                    <br>
-                    <img src="/imgs/graduation-cake.jpg", width="300">
-                </li>
-                <hr>
-                <li>parties cakes
-                    <br>
-                    <img src="/imgs/party cake.jpg", width="300">
-                </li>
-                <hr>
-                <li>and many more
-                    <br>
-                    <img src="/imgs/many-cakes.jpg", width="300">
-                </li>
-                <hr>
-            </ul>
-        </div>
-
-        <div class="odd" style="background-color: #f7c4ba">
-        <h2> Our schedule: </h2>
-        <table bgcolor="black">
-            <tr>
-                <th class="day" width="100">Monday-Thursday</th>
-                <td class="hour" width="100">10:00-20:00</td>
-            </tr>
-            <tr>
-                <th class="day" width="100">Friday</th>
-                <td class="hour" width="100">10:00-18:00</td>
-            </tr>
-            <tr>
-                <th class="day" width="100">Saturday-Sunday</th>
-                <td class="hour" width="100">12:00-16:00</td>
-            </tr>
-        </table>
-        </div>
-
-        <div class="even" style="background-color: #babbf7">
-        <h4>Would you like us to call you back?</h4>
-        <h5>Leave your number in the form below</h5>
-
-        <form>
-            <label for="phone">Phone number:</label>
-            <input id="phone" type="tel">
-            <div id="formDiv">
-                <input id="phone" type="reset">
-                <input id="phone" type="submit">
-            </div>
-        </form>
-        </div>
-
-        <div class="odd" style="background-color: #f7baf3">
-        <h6>Click the button below to learn more about website</h6>
-        <a href="../lab1/info.html">
-            <button>Learn more</button>
-        </a>
-        </div>
-    </main>
+            </ol>
+    </footer>
 </body>
 </html>

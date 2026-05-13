@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="mainPage.html">Main Page</a></li>
+            <li><a href="ourCakesPage.html">Our cakes</a></li>
+            <li><a href="orderPage.html">Make an Order</a></li>
+            <li><a href="contactsPage.html">Contacts</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 id="pageName">Make an order</h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <div>
+            <form id="orderForm">
+                <div class="orderElement">
+                    <h3>1. Choose your occasion</h3>
+                    <div>
+                        <input type="radio" name="occasion" value="wedding">
+                        <label>wedding</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="occasion" value="birthday">
+                        <label>birthday</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="occasion" value="graduation">
+                        <label>graduation</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="occasion" value="party">
+                        <label>party</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="occasion" value="special">
+                        <label>special</label>
+                    </div>
+                    <div>
+                        <br>
+                        <label>special occasion</label>
+                        <input type="text" name="special_occasion">
+                    </div>
+                </div>
+                
+                <hr>
+
+                <div class="orderElement">
+                    <h3>2. Choose your filling</h3>
+                    <div>
+                        <input type="radio" name="filling" value="cherry">
+                        <label>cherry</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filling" value="orange">
+                        <label>orange</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filling" value="strawberry">
+                        <label>strawberry</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filling" value="blueberry">
+                        <label>blueberry</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filling" value="banana">
+                        <label>banana</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filling" value="chocolate">
+                        <label>chocolate</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filling" value="nuts">
+                        <label>nuts</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filling" value="special">
+                        <label>special</label>
+                    </div>
+                    <div>
+                        <br>
+                        <label>special filling</label>
+                        <input type="text" name="special_filling">
+                    </div>
+                </div>
+                
+                <hr>
+
+                <div class="orderElement">
+                    <h3>3. Leave your phone number</h3>
+                    <label for="phone">Phone number:</label>
+                    <input id="phone" name="phone" type="tel" pattern="0[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder="0123456789">
+                    <br>
+                    <div>
+                        <input type="reset">
+                        <input type="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <hr>
+
+    <footer>
+        <h3>What is next?</h3>
+            <ol>
+                <li>
+                    I filled up the form, what is next?
+                    <ul>
+                        <li>we will contact you within our schedule;</li>
+                        <li>you can check our schedule on the Contacts page.</li>
+                    </ul>
+                </li>
+                <li>
+                    I don't want to wait, what do i do?
+                    <ul>
+                        <li>our workers usually deal with the orders within 3 days after placing an order;</li>
+                        <li>if 3 days already gone, you can call us to be updated on you order's status;</li>
+                        <li>you can check how to reach us on the Contacts page.</li>
+                    </ul>
+                </li>
+                <li>
+                    How do I reach you?
+                    <ul>
+                        <li>use semi-transparent menu in the right upper corner of the page;</li>
+                        <li>if you use mobile version of the website, use the menu at the very top of the page;</li>
+                        <li>click on Contacts option;</li>
+                        <li>contacts page will provide you will all the information you need to reach us.</li>
+                    </ul>
+                </li>
+            </ol>
+    </footer>
+</body>
+</html>
