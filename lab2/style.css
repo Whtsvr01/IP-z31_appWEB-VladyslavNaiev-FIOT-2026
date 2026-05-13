@@ -1,60 +1,76 @@
 body{
-    background: linear-gradient(45deg, lightyellow, lightgreen);
+    background-image: url("../imgs/background-cake.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
 }
-
-h1{
+#pageName{
     text-align: center;
 }
 
-span{
-    text-shadow: 2px 2px 1px red, 3px 3px 1px yellow;
-    -webkit-text-stroke: 1px black;
+#NiceBakery{
+    color: #B77466;
+    text-shadow: -3px -3px 3px #E2B59A, 3px 3px 3px #E2B59A;
+    font-family: 'Brush Script MT';
+    font-size: larger;
 }
 
-div{
-    border: 2px solid;
-    margin: 5px;
-    padding: 5px;
+header, nav, main{
+    background-color: #FFE1AF;
+    background: linear-gradient(to right, #FFE1AF, #ffe2affa, #ffe2aff5, #ffe2afe9);
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
     border-radius: 15px;
 }
 
-#cakeList > p{
-    color: red;
+nav ul{
+    list-style-type: circle;
 }
 
-.odd{
-    margin-right: 50px;
+.mainPageFAQ > h3{
+    font-family:monospace;
 }
 
-.even{
-    margin-left: 50px;
+#pricingTable{
+    background-color: #400c02;
 }
 
-#formDiv{
-    border: 0px;
+#pricingTable tr{
+    background-color: #d0c1be;
 }
 
-div[id]{
-    border-color: red;
+#infoTable{
+    background-color: #B77466;
+}
+.fillingTable{
+    background-color: #c8614d;
+}
+.occasionTable{
+    background-color: #e7c3bc;
 }
 
-div + div{
-    font-family: monospace;
+.specialPrice{
+    color: #671505;
 }
 
-tr{
-    background-color: white;
-    align: center;
+#orderForm input[value] + label{
+    font-family: 'Monaco';
 }
 
-.day{
-    background-color: lightblue;
+#scheduleTable{
+    background-color: #400c02;
 }
 
-.hour{
-    background-color: lightgreen;
+#scheduleTable th{
+    background-color: #B77466;
 }
 
-ol{
-    list-style-type: lower-alpha;
+#scheduleTable td{
+    background-color: #d0c1be;
+}
+
+input{
+    background-color: #eadfdd
 }
