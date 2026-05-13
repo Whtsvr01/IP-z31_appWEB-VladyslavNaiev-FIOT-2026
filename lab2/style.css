@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(45deg, lightyellow, lightgreen);
+}
+
+h1{
+    text-align: center;
+}
+
+span{
+    text-shadow: 2px 2px 1px red, 3px 3px 1px yellow;
+    -webkit-text-stroke: 1px black;
+}
+
+div{
+    border: 2px solid;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#cakeList > p{
+    color: red;
+}
+
+.odd{
+    margin-right: 50px;
+}
+
+.even{
+    margin-left: 50px;
+}
+
+#formDiv{
+    border: 0px;
+}
+
+div[id]{
+    border-color: red;
+}
+
+div + div{
+    font-family: monospace;
+}
+
+tr{
+    background-color: white;
+    align: center;
+}
+
+.day{
+    background-color: lightblue;
+}
+
+.hour{
+    background-color: lightgreen;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
