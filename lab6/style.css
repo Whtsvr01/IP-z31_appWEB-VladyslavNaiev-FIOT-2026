@@ -1,0 +1,231 @@
+body{
+    background-image: url("../imgs/background-cake.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+}
+#pageName{
+    text-align: center;
+}
+
+#NiceBakery{
+    color: #B77466;
+    text-shadow: -3px -3px 3px #E2B59A, 3px 3px 3px #E2B59A;
+    font-family: 'Brush Script MT';
+    font-size: larger;
+}
+
+header, main{
+    background: linear-gradient(to right, #FFE1AF, #ffe2affa, #ffe2aff5, #ffe2afe9);
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+nav ul{
+    list-style-type: circle;
+}
+
+.mainPageFAQ > h3{
+    font-family:monospace;
+}
+
+#pricingTable{
+    background-color: #400c02;
+}
+
+#pricingTable tr{
+    background-color: #d0c1be;
+}
+
+#infoTable{
+    background-color: #B77466;
+}
+.fillingTable{
+    background-color: #c8614d;
+}
+.occasionTable{
+    background-color: #e7c3bc;
+}
+
+.specialPrice{
+    color: #671505;
+}
+
+#orderForm input[value] + label{
+    font-family: 'Monaco';
+}
+
+#scheduleTable{
+    background-color: #400c02;
+}
+
+#scheduleTable th{
+    background-color: #B77466;
+}
+
+#scheduleTable td{
+    background-color: #d0c1be;
+}
+
+input{
+    background-color: #eadfdd;
+}
+
+#headerContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    animation: hideMenu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#navbar ul{
+	list-style-type: none;
+	background-color: #400c02;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+}
+
+#navbar a:hover{
+	background-color: #240701;
+}
+
+#orderForm{
+    display: flex;
+}
+
+.orderElement{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 900px){
+    #navbar{
+        position: static;
+        display: block;
+        animation: showMenu;
+        animation-fill-mode: forwards;
+    }
+    #orderForm{
+        display: flex;
+        flex-direction: column;
+    }
+    .offersTable{
+        display: flex;
+        row-gap: 2em;
+        flex-direction: column;
+    }
+    .offersTable li{
+        display: flex;
+        row-gap: 2em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .offersTable li:active{
+        background-color: #cb8b64;
+    }
+}
+
+#pricingContainer{
+    overflow-x: auto;
+}
+
+.offersTable{
+    display: flex;
+    column-gap: 2em;
+    row-gap: 2em;
+    overflow-x: auto;
+}
+.offersTable li{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E2B59A;
+    padding: 5px;
+}
+
+.offersTable li h4{
+    text-align: center;
+}
+
+#navbar:hover{
+    animation: showMenu;
+    animation-fill-mode: forwards;
+}
+
+@keyframes showMenu{
+    to{opacity: 100%;}
+}
+
+@keyframes hideMenu{
+    to{opacity: 20%;}
+}
+
+#contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer{
+    background-color: #400c02;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: small;
+}
+
+footer h3{
+    text-align: center;
+}
+
+.offersTable li:hover{
+    background-color: #cb8b64;
+}
+
+
+
+
+#clickBlocker{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0f03007a;
+}
+
+#modalWindow{
+    font-size: larger;
+    background: #E2B59A;
+    margin: 10% auto;
+    padding: 5px;
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
